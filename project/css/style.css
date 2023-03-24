@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    
+}
+nav input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-left: 30px;
+    outline: none;
+}
+.home nav .form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.home nav .form-group button{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    outline: none;
+    border: none;
+    margin-right: 50px;
+    background-color: white;
+}
+nav .form-group button .box{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.banner{
+    display: flex;
+    
+}
+.banner .col1{
+    width: 50vw;
+    margin: 70px 40px;
+}
+.banner .col1 h1{
+     font-size: 3em;
+     color:#F1C50E;
+     font-weight: 900;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+}
+.banner .col1 h2{
+    font-size: 2em;
+    color: #ccc;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.banner .col1 p{
+    font-size: 1em;
+    color: black;
+    letter-spacing: 1px; padding-right: 27px;
+}
+.banner .col1 button{
+    width: 120px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+    border: 2px solid rgb(58, 57, 57);
+}
+.banner .col1 button:hover{
+    border: none;
+    background-color: white;
+}
+.banner .col2{
+    width: 50vw;
+    margin: 70px 40px;
+    height: 100vh;
+}
+.banner .col2 .row{
+    width: 550px;
+    height: 400px;
+}
+.banner .col2 .row img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about .col1{
+    width: 100%;
+    height: 50%;
+    background-color: #EAC60B;
+    display: flex;
+    justify-content: center;
+    gap: 0px 15px;
+       
+}
+.about .col1 .box{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.about .col1 .box .log{
+    width: 55px;
+    height: 55px;
+    background-color: #EAC60B ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .col1 .box .log i{
+    font-size: 2em;
+    color: black;
+}
+.about .col1 .box h4{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F1C50E;
+    margin: 10px 0px;
+}
+.about .col1 .box p{
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+.about .col2{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 250px;
+       
+}
+.about .col2 h1{
+    font-size: 3em;
+     font-weight: 700;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.about .col2 p{
+    font-size: 1em;
+     letter-spacing: 1px;
+     text-align: center;
+     margin: 10px 0px;
+}
+.about .col2 button{
+    width: 160px;
+    height: 35px;
+    background-color: #F1C50E;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 5px;
+}
+.about .col2 button:hover{
+    background-color: #EAC60B;
+}
+.about .col2 button:hover{
+    border: none;
+}
+/*****************services***************/
+.service{
+    padding: 50px 100px;
+    background-color: #ebe1e0;
+}
+.service .boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.service .boxs .box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 350px;
+    height: 380px;
+    background-color: white;
+}
+.service .boxs .box h4{
+     text-transform: uppercase;
+     font-weight: 700;
+     margin-top: 10px;
+     color: #F1C50E;
+}
+.service .boxs .box p{
+      color: #ccc;
+      font-size: 14px;
+
+}
+.service .col{
+    margin: 0px 0px 20px 0px;
+}
+.service .col h1{
+    font-size: 3em;
+     font-weight: 600;
+     text-transform: capitalize;
+     letter-spacing: 1px;
+}
+.service .col p{
+    font-size: 14px;
+
+}
+/**********************services*****************************/
+.services{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.services .col1 h1{
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+.services .col1 p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #ccc;
+    text-align: center; 
+}
+.services .col2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+.services .col2 .box{
+    width: 350px;
+    height: 180px;
+    padding: 20px;
+    
+}
+.services .col2 .box h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #F1C50E;
+}
+.services .col2 .box p{
+    color: #cccccc;
+      font-size: 13px;
+      margin-top: 10px;
+}
+.services .col3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services .col3 button{
+    width: 150px;
+    height: 35px;
+    border: 1px solid #F1C50E;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 5px;
+    color: #F1C50E;
+    background-color: black;
+    
+}
+.services .col3 button:hover{
+    border: none;
+}
+/********************abouts********************/
+.abouts{
+    display: flex;
+
+}
+.abouts .col1{
+    width: 70vw;
+    position: relative;
+}
+.abouts .col2{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+.abouts .col2 h1{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 10px;
+    color: black;
+}
+.abouts .col2 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.abouts .col2 a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: red;
+    margin-top: 20px;
+}
+.abouts .col2 button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.abouts .col2 button:hover{
+    border: none;
+}
+.abouts .col1 .box1{
+    width: 70%;
+    height: 100%;
+    background-color: #E5E5E5;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.abouts .col1 .box2{
+    width: 600px;
+    height: 360px;
+    background-color: #EAC60B;
+    position: absolute;
+    top: 170px;
+    left: 150px;
+}
+.abouts .col1 .box3{
+    width: 600px;
+    height: 360px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 230px ;
+}
+.abouts .col1 .box3 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+/*******************footer************************/
+.footer{
+    display: flex;
+    position: relative;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .col2{
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    background-color: white;
+    right: 200px;
+    
+}
+.footer .col1{
+    width: 350px;
+    height: 400px;
+    background-color: #EAC60B;
+    position:absolute;
+    left: 200px;  
+    z-index: 8;
+    padding: 60px;
+}
+.footer .col1 h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.footer .col1 p{
+    font-size: 15px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.footer .col1 address{
+    font-size: 15px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+.footer .col2 .row{
+    margin: 50px 150px;
+}
+.footer .col2 .row .from-group input,.from-group textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+}
+.footer .col2 .row .from-group button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    outline: none;
+}
+.footer .col2 .row .from-group button:hover{
+   border: none;
+}
+.footer .foot{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer .foot p{
+     text-align: center;
+     color: #63625f;
+}
+.repair img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
